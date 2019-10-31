@@ -1,3 +1,24 @@
+# Acoustic impulse response measurement without clock synchronization
+This is a collection of Matlab scripts illustrating the clock drift estimation algorithm introduced in 
+
+```
+@InProceedings{gamper2017clock,
+  author = {Gamper, Hannes},
+  title = {Clock drift estimation and compensation for asynchronous impulse response measurements},
+  booktitle = {Proc. Workshop on Hands-free Speech Communication and Microphone Arrays (HSCMA)},
+  year = {2017},
+  month = {March},
+  url = {https://www.microsoft.com/en-us/research/publication/clock-drift-estimation-compensation-asynchronous-impulse-response-measurements/},
+}
+```
+
+The scripts can be used to estimate the (acoustic) impulse response of a device-under-test (DUT) in the presence of clock drift between the measurement setup and the DUT.
+
+# Running the example
+Copy the scripts in this project to a folder and run RUNME.m from within that folder to run through the following steps:
+* Generate a test signal for impulse response measurements
+* Simulate a noisy, reverberant, asynchronous recording of the test signal
+* Estimate the clock drift and impulse response
 
 # Contributing
 
