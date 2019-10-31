@@ -12,7 +12,9 @@ This is a collection of Matlab scripts illustrating the clock drift estimation a
 }
 ```
 
-The scripts can be used to estimate the (acoustic) impulse response of a device-under-test (DUT) in the presence of clock drift between the measurement setup and the DUT.
+The scripts can be used to estimate the (acoustic) impulse response of a device-under-test (DUT) in the presence of clock drift between the measurement setup and the DUT. 
+
+For more information on the algorithm, see https://www.microsoft.com/en-us/research/publication/clock-drift-estimation-compensation-asynchronous-impulse-response-measurements/
 
 # Running the example
 Copy the scripts in this project to a folder and run RUNME.m from within that folder to run through the following steps:
